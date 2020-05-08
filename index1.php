@@ -6,7 +6,7 @@
 
 $servidor = 'localhost';
 $usuario = 'root';
-$clave = '3201442';
+$clave = '';
 $base = 'autos';
 
 // $conexion = new mysqli($servidor, $usuario, $clave, $base );  Instanciando la clase mysqli o
