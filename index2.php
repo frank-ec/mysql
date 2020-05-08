@@ -5,7 +5,7 @@
 /* mysqli forma 1
 $servidor = 'localhost';
 $usuario = 'root';
-$clave = '3201442';
+$clave = '';
 $base = 'autos';
 
 if (mysqli_connect ($servidor, $usuario, $clave, $base)){
@@ -18,7 +18,7 @@ if (mysqli_connect ($servidor, $usuario, $clave, $base)){
 // mysqli forma 2
 $servidor = 'localhost';
 $usuario = 'root';
-$clave = '3201442';
+$clave = '';
 $base = 'autos';
 $conexion = mysqli_connect ($servidor, $usuario, $clave, $base) or die(mysqli_connect_error());
 mysqli_set_charset($conexion,"utf8");  
@@ -117,7 +117,7 @@ mysqli_close($conexion);
 /*
 $servidor = 'localhost';
 $usuario = 'root';
-$clave = '3201442';
+$clave = '';
 $base = 'autos';
 
 $conexion = mysqli_connect($servidor, $usuario, $clave, $base);
